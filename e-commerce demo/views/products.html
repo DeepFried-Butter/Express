@@ -7,10 +7,11 @@
 </head>
 <body>
   <h1>Fetching All Products</h1>
-  <form action="/products" method="POST">
+  <form onsubmit="onSubmitHandler(event)">
     <label for="product">Product Name</label>
     <input type="text" id="product" name="productName" required>
     <button type="submit">Add Product</button>
   </form>
+  <script src="/js/product.js"></script>
 </body>
 </html>
